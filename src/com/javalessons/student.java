@@ -62,10 +62,13 @@ class studentGrade {
         Average = Kemi.avg();
         System.out.println("Kemi's cumulative score is " + Average);
 
+        System.out.println("they all tried");
+
         // attempt to get the positions
         if(Mayor.avg() > Femi.avg()){
             if(Mayor.avg() > Tope.avg())
                 System.out.println("First Position is Mayor");
+
 
 
         }
