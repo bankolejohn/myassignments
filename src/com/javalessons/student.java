@@ -1,5 +1,9 @@
 package com.javalessons;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class student {
     int test1;
     int test2;
@@ -63,6 +67,14 @@ class studentGrade {
         System.out.println("Kemi's cumulative score is " + Average);
 
         System.out.println("they all tried");
+
+
+// List of the cumulative score of the students
+        List<Integer> list = Arrays.asList(50,83,60,45);
+        Integer max = Collections.max(list);
+        System.out.println("the cumulative highest score is: " + max);
+
+
 
         // attempt to get the positions
         if(Mayor.avg() > Femi.avg()){
